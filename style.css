@@ -43,10 +43,18 @@ body {
 	justify-content: center;
 	margin-left: 5%;
 }
+#ad {
+	justify-content: center;
+	width: 100%;
+}
 
 #prep {
   	list-style: none;
 }
 #order {
 	list-style-type: upper-roman;
+}
+
+.big{
+	margin-top: 5%;
 }
