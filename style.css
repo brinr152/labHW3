@@ -1,24 +1,49 @@
 /*Define your font styles here*/
+@font-face {
+    font-family: 'federoregular';
+    src: url('federo_regular/federo-regular-webfont.woff2') format('woff2'),
+         url('federo_regular/federo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('roboto_regular/roboto-regular-webfont.woff2') format('woff2'),
+         url('roboto_regular/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoitalic';
+    src: url('roboto_italic/Roboto-Italic.woff2') format('woff2'),
+         url('roboto_italic/Roboto-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 h1 {
-	font-family: 'Federo', sans-serif;
+	font-family: 'federoregular';
 	color: #DC143C;
 }
 h2 {
-	font-family: 'Federo', sans-serif;
+	font-family: 'federoregular';
 	color: #DC143C;
 	text-decoration: underline;
 }
 
 .small {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'robotoregular', sans-serif;
 }
 .bold {
 	font-weight: bold;
 	line-height: 110%;
 }
 .blue {
+	font-family: robotoitalic;
 	color: #4863A0;
-	font-style: italic;
 	line-height: 120%;
 	letter-spacing: 1px;
 }
